@@ -37,6 +37,3 @@ build/
 ### Mac OS ###
 .DS_Store
 
-### 密钥 ###
-xiaohashu-oss/xiaohashu-oss-biz/src/main/resources/config/application-dev.yml
-xiaohashu-auth/src/main/resources/config/application-dev.yml
