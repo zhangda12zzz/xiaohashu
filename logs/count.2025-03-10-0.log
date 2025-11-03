@@ -1,0 +1,77 @@
+2025-03-10 09:51:45.052 [http-nio-8090-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 09:51:45.052 [http-nio-8090-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 09:51:45.066 [http-nio-8090-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取用户计数数据], 入参: {"userId":2100}, 请求类: UserCountController, 请求方法: findUserCountData =================================== 
+2025-03-10 09:51:45.066 [http-nio-8090-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取用户计数数据], 入参: {"userId":2100}, 请求类: UserCountController, 请求方法: findUserCountData =================================== 
+2025-03-10 09:51:45.079 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - ==>  Preparing: select id, user_id, fans_total, following_total, note_total, like_total, collect_total from t_user_count where user_id = ? limit 1
+2025-03-10 09:51:45.081 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - ==> Parameters: 2100(Long)
+2025-03-10 09:51:45.084 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - <==      Total: 1
+2025-03-10 09:51:45.084 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - ==>  Preparing: select id, user_id, fans_total, following_total, note_total, like_total, collect_total from t_user_count where user_id = ? limit 1
+2025-03-10 09:51:45.084 [http-nio-8090-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取用户计数数据], 耗时: 19ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"userId":2100,"fansTotal":3,"followingTotal":4,"noteTotal":14,"likeTotal":9,"collectTotal":5}} =================================== 
+2025-03-10 09:51:45.085 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - ==> Parameters: 2100(Long)
+2025-03-10 09:51:45.086 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.UserCountDOMapper.selectByUserId - <==      Total: 1
+2025-03-10 09:51:45.086 [http-nio-8090-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取用户计数数据], 耗时: 21ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"userId":2100,"fansTotal":3,"followingTotal":4,"noteTotal":14,"likeTotal":9,"collectTotal":5}} =================================== 
+2025-03-10 09:51:45.088 [http-nio-8090-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 09:51:45.088 [http-nio-8090-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:40.227 [http-nio-8090-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:40.250 [http-nio-8090-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895795420446064640}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:40.270 [http-nio-8090-exec-9] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:40.274 [http-nio-8090-exec-9] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895795420446064640(Long)
+2025-03-10 11:32:40.278 [http-nio-8090-exec-9] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:40.278 [http-nio-8090-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 28ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895795420446064640,"likeTotal":1,"collectTotal":1,"commentTotal":5}} =================================== 
+2025-03-10 11:32:40.283 [http-nio-8090-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:42.253 [http-nio-8090-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:42.253 [http-nio-8090-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895795185766367284}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:42.254 [http-nio-8090-exec-4] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:42.254 [http-nio-8090-exec-4] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895795185766367284(Long)
+2025-03-10 11:32:42.255 [http-nio-8090-exec-4] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:42.255 [http-nio-8090-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895795185766367284,"likeTotal":1,"collectTotal":1,"commentTotal":62}} =================================== 
+2025-03-10 11:32:42.256 [http-nio-8090-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:43.741 [http-nio-8090-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:43.741 [http-nio-8090-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895795420446064640}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:43.742 [http-nio-8090-exec-7] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:43.742 [http-nio-8090-exec-7] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895795420446064640(Long)
+2025-03-10 11:32:43.743 [http-nio-8090-exec-7] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:43.743 [http-nio-8090-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895795420446064640,"likeTotal":1,"collectTotal":1,"commentTotal":5}} =================================== 
+2025-03-10 11:32:43.744 [http-nio-8090-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:45.343 [http-nio-8090-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:45.344 [http-nio-8090-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895794954152706064}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:45.344 [http-nio-8090-exec-8] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:45.344 [http-nio-8090-exec-8] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895794954152706064(Long)
+2025-03-10 11:32:45.345 [http-nio-8090-exec-8] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:45.346 [http-nio-8090-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895794954152706064,"likeTotal":1,"collectTotal":1,"commentTotal":1}} =================================== 
+2025-03-10 11:32:45.346 [http-nio-8090-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:47.580 [http-nio-8090-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:47.583 [http-nio-8090-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895792506252034080}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:47.583 [http-nio-8090-exec-5] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:47.584 [http-nio-8090-exec-5] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895792506252034080(Long)
+2025-03-10 11:32:47.585 [http-nio-8090-exec-5] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:47.585 [http-nio-8090-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895792506252034080,"likeTotal":1,"collectTotal":0,"commentTotal":7}} =================================== 
+2025-03-10 11:32:47.586 [http-nio-8090-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:49.931 [http-nio-8090-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 4104
+2025-03-10 11:32:49.932 [http-nio-8090-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895793960295596052}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:49.932 [http-nio-8090-exec-10] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:49.933 [http-nio-8090-exec-10] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895793960295596052(Long)
+2025-03-10 11:32:49.935 [http-nio-8090-exec-10] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:49.936 [http-nio-8090-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 4ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895793960295596052,"likeTotal":1,"collectTotal":0,"commentTotal":23}} =================================== 
+2025-03-10 11:32:49.936 [http-nio-8090-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 4104
+2025-03-10 11:32:51.742 [http-nio-8090-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-10 11:32:51.742 [http-nio-8090-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895791464059764794}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:51.743 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:51.743 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895791464059764794(Long)
+2025-03-10 11:32:51.744 [http-nio-8090-exec-6] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:51.744 [http-nio-8090-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895791464059764794,"likeTotal":1,"collectTotal":0,"commentTotal":4}} =================================== 
+2025-03-10 11:32:51.745 [http-nio-8090-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-10 11:32:53.226 [http-nio-8090-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 6100
+2025-03-10 11:32:53.227 [http-nio-8090-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895793656292442205}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:53.227 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:53.227 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895793656292442205(Long)
+2025-03-10 11:32:53.229 [http-nio-8090-exec-3] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:53.229 [http-nio-8090-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895793656292442205,"likeTotal":1,"collectTotal":1,"commentTotal":2}} =================================== 
+2025-03-10 11:32:53.229 [http-nio-8090-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 6100
+2025-03-10 11:32:58.176 [http-nio-8090-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 4104
+2025-03-10 11:32:58.177 [http-nio-8090-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [获取笔记计数数据], 入参: {"noteId":1895780661764030465}, 请求类: NoteCountController, 请求方法: findNoteCountData =================================== 
+2025-03-10 11:32:58.177 [http-nio-8090-exec-2] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==>  Preparing: select note_id, like_total, collect_total, comment_total from t_note_count where note_id = ?
+2025-03-10 11:32:58.178 [http-nio-8090-exec-2] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - ==> Parameters: 1895780661764030465(Long)
+2025-03-10 11:32:58.182 [http-nio-8090-exec-2] DEBUG c.q.x.c.b.d.m.NoteCountDOMapper.selectByNoteId - <==      Total: 1
+2025-03-10 11:32:58.182 [http-nio-8090-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [获取笔记计数数据], 耗时: 5ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"noteId":1895780661764030465,"likeTotal":0,"collectTotal":0,"commentTotal":1}} =================================== 
+2025-03-10 11:32:58.182 [http-nio-8090-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 4104

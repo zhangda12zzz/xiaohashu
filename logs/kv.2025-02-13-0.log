@@ -1,0 +1,50 @@
+2025-02-13 17:05:20.106 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-13 17:05:20.143 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-13 17:05:20.402 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-13 17:05:20.408 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-13 17:05:20.408 [main] INFO  c.q.xiaohashu.kv.biz.XiaohashuKVBizApplication - The following 1 profile is active: "dev"
+2025-02-13 17:05:20.713 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Cassandra repositories in DEFAULT mode.
+2025-02-13 17:05:20.761 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 0 Reactive Cassandra repository interfaces.
+2025-02-13 17:05:20.762 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Cassandra repositories in DEFAULT mode.
+2025-02-13 17:05:20.770 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 2 Cassandra repository interfaces.
+2025-02-13 17:05:20.849 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0a0b5c46-8f74-325a-866c-202c79ab5e9a
+2025-02-13 17:05:21.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+2025-02-13 17:05:21.047 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-13 17:05:21.047 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-13 17:05:21.090 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-13 17:05:21.090 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 675 ms
+2025-02-13 17:05:21.625 [main] INFO  c.d.o.driver.internal.core.DefaultMavenCoordinates - DataStax Java driver for Apache Cassandra(R) (com.datastax.oss:java-driver-core) version 4.15.0
+2025-02-13 17:05:22.065 [s0-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-02-13 17:05:22.413 [s1-admin-0] INFO  com.datastax.oss.driver.internal.core.time.Clock - Using native clock for microsecond precision
+2025-02-13 17:05:22.590 [main] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.quanxiaoha.xiaohashu.kv.biz.domain.repository.CommentContentRepository
+2025-02-13 17:05:23.045 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-13 17:05:23.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2025-02-13 17:05:23.084 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-13 17:05:23.084 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-02-13 17:05:23.084 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-02-13 17:05:23.084 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-02-13 17:05:23.097 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-13 17:05:23.097 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-13 17:05:23.098 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-13 17:05:23.101 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-13 17:05:23.101 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-13 17:05:23.102 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-13 17:05:23.106 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 99e704b5-8ed7-4300-a119-ebbf3828b44b
+2025-02-13 17:05:23.116 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-02-13 17:05:23.116 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-02-13 17:05:23.117 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-02-13 17:05:23.118 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-13 17:05:23.132 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-13 17:05:23.671 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1739437523512_172.17.0.1_41956
+2025-02-13 17:05:23.671 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Notify connected event to listeners.
+2025-02-13 17:05:23.671 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-13 17:05:23.672 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-13 17:05:23.672 [main] INFO  com.alibaba.nacos.common.remote.client - [99e704b5-8ed7-4300-a119-ebbf3828b44b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1545/0x000001857092e200
+2025-02-13 17:05:23.672 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-kv with instance Instance{instanceId='null', ip='192.168.1.3', port=8084, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:571:db00:75c0:5437:baf6:caaa], preserved.register.source=SPRING_CLOUD}}
+2025-02-13 17:05:23.680 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-kv 192.168.1.3:8084 register finished
+2025-02-13 17:05:23.786 [main] INFO  c.q.xiaohashu.kv.biz.XiaohashuKVBizApplication - Started XiaohashuKVBizApplication in 4.096 seconds (process running for 4.467)
+2025-02-13 17:05:44.674 [http-nio-8084-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-13 17:05:44.674 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-13 17:05:44.675 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-13 17:05:44.722 [http-nio-8084-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [删除评论内容], 入参: {"noteId":1862482047415615528,"yearMonth":"2024-12","contentId":"1a0748f8-2b56-4a3b-905a-efa18871b795"}, 请求类: CommentContentController, 请求方法: deleteCommentContent =================================== 
+2025-02-13 17:05:44.806 [http-nio-8084-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [删除评论内容], 耗时: 83ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 

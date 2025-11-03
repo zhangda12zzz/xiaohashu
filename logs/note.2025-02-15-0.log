@@ -1,0 +1,19 @@
+2025-02-15 02:31:04.836 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:04.836 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:04.839 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:04.841 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:04.841 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-15 02:31:04.842 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-15 02:31:05.086 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:05.556 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:05.557 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-15 02:31:05.617 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d1c1cbfa-66cc-4ecd-a822-50fecaa5aed0] Success to connect a server [127.0.0.1:8848], connectionId = 1739557865477_172.17.0.1_34426
+2025-02-15 02:31:05.618 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d1c1cbfa-66cc-4ecd-a822-50fecaa5aed0] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1739531186919_172.17.0.1_33160
+2025-02-15 02:31:05.618 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1739531186919_172.17.0.1_33160
+2025-02-15 02:31:05.618 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d1c1cbfa-66cc-4ecd-a822-50fecaa5aed0] Notify disconnected event to listeners
+2025-02-15 02:31:05.618 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - Grpc connection disconnect, mark to redo
+2025-02-15 02:31:05.618 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - mark to redo completed
+2025-02-15 02:31:05.619 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [d1c1cbfa-66cc-4ecd-a822-50fecaa5aed0] Notify connected event to listeners.
+2025-02-15 02:31:05.619 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-15 02:31:05.621 [nacos-grpc-client-executor-127.0.0.1-6232] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1739531186919_172.17.0.1_33160]Ignore error event,isRunning:true,isAbandon=true
+2025-02-15 02:31:06.157 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo instance operation REGISTER for DEFAULT_GROUP@@xiaohashu-note

@@ -1,0 +1,87 @@
+2025-03-11 09:10:30.513 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.515 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.516 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.517 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.529 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:10:30.541 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.542 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.567 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.575 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.807 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:10:30.827 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 09:10:30.827 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:10:30.826 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:10:31.846 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Success to connect a server [127.0.0.1:8848], connectionId = 1741617589976_172.17.0.1_55278
+2025-03-11 09:10:31.846 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1741536844274_172.17.0.1_53008
+2025-03-11 09:10:31.846 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1741536844274_172.17.0.1_53008
+2025-03-11 09:10:31.849 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Notify disconnected event to listeners
+2025-03-11 09:10:31.850 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - Grpc connection disconnect, mark to redo
+2025-03-11 09:10:31.851 [nacos-grpc-client-executor-127.0.0.1-11215] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1741536844274_172.17.0.1_53008]Ignore error event,isRunning:true,isAbandon=true
+2025-03-11 09:10:31.852 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - mark to redo completed
+2025-03-11 09:10:31.852 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Notify connected event to listeners.
+2025-03-11 09:10:31.852 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-03-11 09:10:34.554 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo instance operation REGISTER for DEFAULT_GROUP@@xiaohashu-comment
+2025-03-11 09:10:34.682 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xiaohashu-kv#
+2025-03-11 09:10:34.807 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xiaohashu-user#
+2025-03-11 09:10:34.996 [nacos-grpc-client-executor-127.0.0.1-11219] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Receive server push request, request = NotifySubscriberRequest, requestId = 837
+2025-03-11 09:10:34.997 [nacos-grpc-client-executor-127.0.0.1-11219] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Ack server push request, request = NotifySubscriberRequest, requestId = 837
+2025-03-11 09:10:35.328 [nacos-grpc-client-executor-127.0.0.1-11220] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Receive server push request, request = NotifySubscriberRequest, requestId = 843
+2025-03-11 09:10:35.328 [nacos-grpc-client-executor-127.0.0.1-11220] INFO  com.alibaba.nacos.common.remote.client - [4a995d12-61e1-451c-8dde-5a411d5ef6a5] Ack server push request, request = NotifySubscriberRequest, requestId = 843
+2025-03-11 09:23:49.983 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.983 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.983 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.984 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.984 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.984 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 09:23:49.985 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.397 [Thread-16] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-03-11 14:36:35.397 [Thread-19] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-03-11 14:36:35.401 [Thread-16] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-03-11 14:36:35.407 [Thread-19] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-03-11 14:36:35.462 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.463 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.466 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.466 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.470 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.470 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.474 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.475 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.587 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-03-11 14:36:35.588 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-comment with instance: Instance{instanceId='null', ip='192.168.1.3', port=8093, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-03-11 14:36:35.594 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-03-11 14:36:35.594 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-03-11 14:36:35.594 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-03-11 14:36:35.595 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@72d1ab3a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-03-11 14:36:35.596 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1741617589976_172.17.0.1_55278
+2025-03-11 14:36:35.597 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1eb6c43b[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 15131]
+2025-03-11 14:36:35.597 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@6ac28cda[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 25104]
+2025-03-11 14:36:35.598 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-03-11 14:36:35.598 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-03-11 14:36:35.598 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-03-11 14:36:35.612 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.612 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.614 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.615 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_first_reply_comment_idCountNoteCommentTopic', namespace='', nameServer='127.0.0.1:9876', topic='CountNoteCommentTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-11 14:36:35.615 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_DeleteCommentDetailLocalCacheTopic', namespace='', nameServer='127.0.0.1:9876', topic='DeleteCommentDetailLocalCacheTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=BROADCASTING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-11 14:36:35.617 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_DeleteCommentTopic', namespace='', nameServer='127.0.0.1:9876', topic='DeleteCommentTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-11 14:36:35.617 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_CommentHeatUpdateTopic', namespace='', nameServer='127.0.0.1:9876', topic='CommentHeatUpdateTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-03-11 14:36:35.770 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.27.96.1:10911] result: true
+2025-03-11 14:36:35.770 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-03-11 14:36:35.775 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-03-11 14:36:35.777 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,455 @@
+2025-02-28 09:32:22.241 [com.alibaba.nacos.client.Worker] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=0d2c1d01ac437f4f739d94a0c2066bf9, Client-RequestTS=1740706342096, exConfigInfo=true}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+2025-02-28 09:32:22.389 [com.alibaba.nacos.client.Worker] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=0d2c1d01ac437f4f739d94a0c2066bf9, Client-RequestTS=1740706342096, exConfigInfo=true}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+2025-02-28 09:32:22.507 [com.alibaba.nacos.client.Worker] ERROR com.alibaba.nacos.common.remote.client - Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=0d2c1d01ac437f4f739d94a0c2066bf9, Client-RequestTS=1740706342096, exConfigInfo=true}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+2025-02-28 09:32:22.507 [com.alibaba.nacos.client.Worker] ERROR com.alibaba.nacos.client.config.impl.ClientWorker - Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:643)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1011)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:992)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:786)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:704)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-28 09:32:22.768 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] Success to connect a server [127.0.0.1:8848], connectionId = 1740665252187_172.17.0.1_55134
+2025-02-28 09:32:22.768 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1740641690352_172.17.0.1_37688
+2025-02-28 09:32:22.769 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740641690352_172.17.0.1_37688
+2025-02-28 09:32:22.791 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] Notify disconnected event to listeners
+2025-02-28 09:32:22.791 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] DisConnected,clear listen context...
+2025-02-28 09:32:22.792 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] Notify connected event to listeners.
+2025-02-28 09:32:22.792 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [0e021be2-56f8-4220-806f-8ab70a40b7bf_config-0] Connected,notify listen context...
+2025-02-28 09:32:22.809 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [43352a98-ca2d-4f00-b310-20c1c803fecf] Success to connect a server [127.0.0.1:8848], connectionId = 1740665252189_172.17.0.1_55132
+2025-02-28 09:32:22.809 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [43352a98-ca2d-4f00-b310-20c1c803fecf] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1740641691718_172.17.0.1_37702
+2025-02-28 09:32:22.809 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740641691718_172.17.0.1_37702
+2025-02-28 09:32:22.813 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [43352a98-ca2d-4f00-b310-20c1c803fecf] Notify disconnected event to listeners
+2025-02-28 09:32:22.813 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - Grpc connection disconnect, mark to redo
+2025-02-28 09:32:23.172 [nacos-grpc-client-executor-127.0.0.1-4728] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740641691718_172.17.0.1_37702]Ignore error event,isRunning:true,isAbandon=true
+2025-02-28 09:32:23.172 [nacos-grpc-client-executor-127.0.0.1-4741] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740641690352_172.17.0.1_37688]Ignore error event,isRunning:true,isAbandon=true
+2025-02-28 09:32:23.175 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - mark to redo completed
+2025-02-28 09:32:23.175 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [43352a98-ca2d-4f00-b310-20c1c803fecf] Notify connected event to listeners.
+2025-02-28 09:32:23.175 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-28 09:32:23.651 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo instance operation REGISTER for DEFAULT_GROUP@@xiaohashu-oss
+2025-02-28 10:39:25.155 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 10:39:25.174 [http-nio-8081-exec-5] ERROR c.q.x.oss.biz.exception.GlobalExceptionHandler - /file/upload request error, 
+org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:119)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:110)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:86)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:112)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1218)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1052)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:41)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2926)
+	at org.apache.catalina.connector.Request.getParts(Request.java:2778)
+	at org.apache.catalina.connector.RequestFacade.getParts(RequestFacade.java:1074)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:93)
+	... 47 common frames omitted
+Caused by: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:117)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:96)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:292)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2884)
+	... 50 common frames omitted
+2025-02-28 10:39:25.177 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 10:39:46.751 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-02-28 10:39:46.751 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-02-28 10:39:46.751 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-02-28 10:39:46.753 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-02-28 10:39:46.772 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-02-28 10:39:46.772 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-oss with instance: Instance{instanceId='null', ip='192.168.1.3', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-02-28 10:39:46.775 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-02-28 10:39:46.775 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-02-28 10:39:46.775 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@734e2a71[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740665252189_172.17.0.1_55132
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2a785432[Running, pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 5530]
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@2624a8b0[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 9182]
+2025-02-28 10:39:46.776 [nacos-grpc-client-executor-127.0.0.1-5530] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740665252189_172.17.0.1_55132]Ignore error event,isRunning:false,isAbandon=false
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-02-28 10:39:46.776 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-02-28 10:39:49.658 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:39:49.697 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:39:49.847 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:39:49.849 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-28 10:39:49.849 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-28 10:39:49.850 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-28 10:39:49.870 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-28 10:39:49.870 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-28 10:39:49.871 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-28 10:39:50.010 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:39:50.018 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-02-28 10:39:50.021 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0
+2025-02-28 10:39:50.031 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x00000222b838f818
+2025-02-28 10:39:50.031 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x00000222b838fc38
+2025-02-28 10:39:50.031 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-02-28 10:39:50.032 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-02-28 10:39:50.036 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-28 10:39:50.054 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-28 10:39:50.694 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740710390535_172.17.0.1_52544
+2025-02-28 10:39:50.694 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Notify connected event to listeners.
+2025-02-28 10:39:50.695 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Connected,notify listen context...
+2025-02-28 10:39:50.695 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-28 10:39:50.695 [main] INFO  com.alibaba.nacos.common.remote.client - [596bc68f-d5be-481d-b3fb-0e62df3a7a49_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000222b84d9ad0
+2025-02-28 10:39:50.721 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-02-28 10:39:50.750 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-oss] & group[DEFAULT_GROUP]
+2025-02-28 10:39:50.756 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-oss.yaml] & group[DEFAULT_GROUP]
+2025-02-28 10:39:50.764 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2025-02-28 10:39:50.766 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss,DEFAULT_GROUP'}]
+2025-02-28 10:39:50.769 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:39:50.769 [main] INFO  c.q.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-02-28 10:39:51.068 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e2ca34db-4026-326f-b5c4-f3dea42a333f
+2025-02-28 10:39:51.277 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-02-28 10:39:51.283 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-28 10:39:51.283 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-28 10:39:51.321 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-28 10:39:51.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
+2025-02-28 10:39:52.151 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-02-28 10:39:52.154 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-02-28 10:39:52.155 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-02-28 10:39:52.155 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-02-28 10:39:52.159 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-28 10:39:52.159 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-28 10:39:52.161 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of bae6b47b-bbbf-4f9a-89ce-0e49b11f742f
+2025-02-28 10:39:52.163 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-02-28 10:39:52.163 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-02-28 10:39:52.163 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-02-28 10:39:52.163 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-28 10:39:52.163 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-28 10:39:52.272 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740710392167_172.17.0.1_52560
+2025-02-28 10:39:52.272 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-28 10:39:52.272 [main] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000222b84d9ad0
+2025-02-28 10:39:52.272 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bae6b47b-bbbf-4f9a-89ce-0e49b11f742f] Notify connected event to listeners.
+2025-02-28 10:39:52.272 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-28 10:39:52.273 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-oss with instance Instance{instanceId='null', ip='192.168.1.3', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b67:57b:ab00:fbf2:c156:c48c:ed8b], preserved.register.source=SPRING_CLOUD}}
+2025-02-28 10:39:52.279 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 192.168.1.3:8081 register finished
+2025-02-28 10:39:52.369 [main] INFO  c.q.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 3.125 seconds (process running for 3.491)
+2025-02-28 10:39:52.371 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-02-28 10:39:52.371 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:39:52.374 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:39:52.374 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss, group=DEFAULT_GROUP
+2025-02-28 10:39:52.375 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:39:52.375 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:39:52.375 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss-dev.yaml, group=DEFAULT_GROUP
+2025-02-28 10:39:52.375 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:39:52.375 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:39:52.375 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss.yaml, group=DEFAULT_GROUP
+2025-02-28 10:41:12.244 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-02-28 10:41:12.244 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-02-28 10:41:12.244 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-02-28 10:41:12.245 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-02-28 10:41:12.257 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-02-28 10:41:12.257 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-oss with instance: Instance{instanceId='null', ip='192.168.1.3', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@147bbfa[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-02-28 10:41:12.260 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740710392167_172.17.0.1_52560
+2025-02-28 10:41:12.262 [nacos-grpc-client-executor-127.0.0.1-25] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740710392167_172.17.0.1_52560]Ignore error event,isRunning:false,isAbandon=false
+2025-02-28 10:41:12.263 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@47215d6a[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 26]
+2025-02-28 10:41:12.263 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@3a5871d2[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 26]
+2025-02-28 10:41:12.263 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-02-28 10:41:12.263 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-02-28 10:41:12.263 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-02-28 10:41:13.716 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:41:13.754 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:41:13.893 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:41:13.894 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-28 10:41:13.894 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-28 10:41:13.894 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-28 10:41:13.910 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-28 10:41:13.911 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-28 10:41:13.912 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-28 10:41:14.058 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:41:14.064 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-02-28 10:41:14.067 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 9d5d3607-65d5-4341-89d3-7a9761002947_config-0
+2025-02-28 10:41:14.076 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x00000224a838d8c8
+2025-02-28 10:41:14.076 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$589/0x00000224a838dce8
+2025-02-28 10:41:14.077 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-02-28 10:41:14.077 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-02-28 10:41:14.080 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-28 10:41:14.098 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-28 10:41:14.636 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740710474483_172.17.0.1_51178
+2025-02-28 10:41:14.636 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Notify connected event to listeners.
+2025-02-28 10:41:14.636 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Connected,notify listen context...
+2025-02-28 10:41:14.636 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-28 10:41:14.636 [main] INFO  com.alibaba.nacos.common.remote.client - [9d5d3607-65d5-4341-89d3-7a9761002947_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000224a84d76d8
+2025-02-28 10:41:14.661 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-02-28 10:41:14.671 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-oss] & group[DEFAULT_GROUP]
+2025-02-28 10:41:14.675 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-oss.yaml] & group[DEFAULT_GROUP]
+2025-02-28 10:41:14.682 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2025-02-28 10:41:14.685 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-oss,DEFAULT_GROUP'}]
+2025-02-28 10:41:14.687 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-28 10:41:14.687 [main] INFO  c.q.xiaohashu.oss.biz.XiaohashuOssBizApplication - The following 1 profile is active: "dev"
+2025-02-28 10:41:14.946 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=e2ca34db-4026-326f-b5c4-f3dea42a333f
+2025-02-28 10:41:15.136 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2025-02-28 10:41:15.141 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-28 10:41:15.141 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-28 10:41:15.179 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-28 10:41:15.179 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+2025-02-28 10:41:15.821 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2025-02-28 10:41:15.824 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-02-28 10:41:15.824 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-02-28 10:41:15.824 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-02-28 10:41:15.828 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-28 10:41:15.828 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-28 10:41:15.830 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 46a39480-2d1c-4f94-80fa-815f632a70e2
+2025-02-28 10:41:15.831 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-02-28 10:41:15.831 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-02-28 10:41:15.831 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-02-28 10:41:15.832 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-28 10:41:15.832 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-28 10:41:15.947 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740710475837_172.17.0.1_51182
+2025-02-28 10:41:15.947 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Notify connected event to listeners.
+2025-02-28 10:41:15.947 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-28 10:41:15.947 [main] INFO  com.alibaba.nacos.common.remote.client - [46a39480-2d1c-4f94-80fa-815f632a70e2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$609/0x00000224a84d76d8
+2025-02-28 10:41:15.947 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-28 10:41:15.948 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-oss with instance Instance{instanceId='null', ip='192.168.1.3', port=8081, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b67:57b:ab00:fbf2:c156:c48c:ed8b], preserved.register.source=SPRING_CLOUD}}
+2025-02-28 10:41:15.954 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-oss 192.168.1.3:8081 register finished
+2025-02-28 10:41:16.041 [main] INFO  c.q.xiaohashu.oss.biz.XiaohashuOssBizApplication - Started XiaohashuOssBizApplication in 2.699 seconds (process running for 2.973)
+2025-02-28 10:41:16.043 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-02-28 10:41:16.043 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:41:16.047 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:41:16.047 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss, group=DEFAULT_GROUP
+2025-02-28 10:41:16.048 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:41:16.048 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:41:16.048 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss-dev.yaml, group=DEFAULT_GROUP
+2025-02-28 10:41:16.048 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-oss.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-28 10:41:16.048 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-oss.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-28 10:41:16.048 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-oss.yaml, group=DEFAULT_GROUP
+2025-02-28 10:41:51.032 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-28 10:41:51.032 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-28 10:41:51.032 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-02-28 10:41:51.037 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 10:41:51.096 [http-nio-8081-exec-1] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 10:41:51.097 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 10:41:51.097 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 92135ce2065e4bbabd6f73595aa6720c.mp4
+2025-02-28 10:41:51.347 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/92135ce2065e4bbabd6f73595aa6720c.mp4
+2025-02-28 10:41:51.362 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:14:42.514 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:14:42.534 [http-nio-8081-exec-3] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:14:42.534 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:14:42.535 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 36444244d57141068e4490b77a57547a.mp4
+2025-02-28 15:14:42.624 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/36444244d57141068e4490b77a57547a.mp4
+2025-02-28 15:14:42.633 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:16:16.416 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:16:16.418 [http-nio-8081-exec-5] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:16:16.418 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:16:16.419 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 3ef44e25c5b3448ba54e66701d0396c7.png
+2025-02-28 15:16:16.466 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/3ef44e25c5b3448ba54e66701d0396c7.png
+2025-02-28 15:16:16.467 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:16:25.469 [http-nio-8081-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:16:25.481 [http-nio-8081-exec-7] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:16:25.481 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:16:25.481 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: c78b935159c347cebe94a8928449e9ef.mp4
+2025-02-28 15:16:25.554 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/c78b935159c347cebe94a8928449e9ef.mp4
+2025-02-28 15:16:25.555 [http-nio-8081-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:16:51.150 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:16:51.153 [http-nio-8081-exec-6] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:16:51.154 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:16:51.154 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: b81c9a19b9ed4a6483bb1fe2df42e21d.png
+2025-02-28 15:16:51.203 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/b81c9a19b9ed4a6483bb1fe2df42e21d.png
+2025-02-28 15:16:51.204 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:18:44.253 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:18:44.256 [http-nio-8081-exec-10] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:18:44.256 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:18:44.256 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: d2264b31c10041198d3a354ecc7c0a95.png
+2025-02-28 15:18:44.298 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/d2264b31c10041198d3a354ecc7c0a95.png
+2025-02-28 15:18:44.299 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:18:50.815 [http-nio-8081-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:18:50.829 [http-nio-8081-exec-8] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:18:50.829 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:18:50.830 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 6a1d53d2e5c94a3ba9c03c176745afcc.mp4
+2025-02-28 15:18:50.902 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/6a1d53d2e5c94a3ba9c03c176745afcc.mp4
+2025-02-28 15:18:50.903 [http-nio-8081-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:19:49.111 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:19:49.135 [http-nio-8081-exec-1] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:19:49.135 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:19:49.135 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 94191bb932ee4bfebbf34c441b644894.mp4
+2025-02-28 15:19:49.227 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/94191bb932ee4bfebbf34c441b644894.mp4
+2025-02-28 15:19:49.229 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 15:23:20.408 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 15:23:20.419 [http-nio-8081-exec-3] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 15:23:20.419 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 15:23:20.419 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 0e303973f9364982a2e60e491bb5f148.mp4
+2025-02-28 15:23:20.493 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/0e303973f9364982a2e60e491bb5f148.mp4
+2025-02-28 15:23:20.494 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:51:24.646 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:51:24.661 [http-nio-8081-exec-5] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:51:24.663 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:51:24.663 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: ade7d7eb710748d09d5a6299384fb5e9.png
+2025-02-28 17:51:24.716 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/ade7d7eb710748d09d5a6299384fb5e9.png
+2025-02-28 17:51:24.727 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:51:29.533 [http-nio-8081-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:51:29.537 [http-nio-8081-exec-7] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:51:29.537 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:51:29.537 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 7cf5c84a0266475eb437d611e15a1bef.png
+2025-02-28 17:51:29.579 [http-nio-8081-exec-7] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/7cf5c84a0266475eb437d611e15a1bef.png
+2025-02-28 17:51:29.581 [http-nio-8081-exec-7] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:51:38.052 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:51:38.057 [http-nio-8081-exec-6] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:51:38.057 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:51:38.058 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 0e36036e304b4bb1af125248801f3393.png
+2025-02-28 17:51:38.113 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/0e36036e304b4bb1af125248801f3393.png
+2025-02-28 17:51:38.114 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:53:01.588 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:53:01.609 [http-nio-8081-exec-10] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:53:01.609 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:53:01.609 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 7ee9990b1526419899d9448727a1d3df.mp4
+2025-02-28 17:53:01.703 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/7ee9990b1526419899d9448727a1d3df.mp4
+2025-02-28 17:53:01.705 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:53:12.739 [http-nio-8081-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:53:12.744 [http-nio-8081-exec-8] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:53:12.744 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:53:12.744 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: cc54d7ee93bc4cc197b0ce77166e85bf.png
+2025-02-28 17:53:12.789 [http-nio-8081-exec-8] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/cc54d7ee93bc4cc197b0ce77166e85bf.png
+2025-02-28 17:53:12.791 [http-nio-8081-exec-8] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:53:28.990 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:53:28.995 [http-nio-8081-exec-1] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:53:28.995 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:53:28.995 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: fc2fc1eda0234253a42960b5c079bd17.png
+2025-02-28 17:53:29.044 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/fc2fc1eda0234253a42960b5c079bd17.png
+2025-02-28 17:53:29.046 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:53:37.725 [http-nio-8081-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:53:37.747 [http-nio-8081-exec-2] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:53:37.748 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:53:37.748 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: cf8352d444844481862f5d6b3f355976.png
+2025-02-28 17:53:37.814 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/cf8352d444844481862f5d6b3f355976.png
+2025-02-28 17:53:37.817 [http-nio-8081-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:53:48.496 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:53:48.500 [http-nio-8081-exec-3] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:53:48.500 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:53:48.501 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: ab28f7ec72d34789b86a59a1d87130fd.png
+2025-02-28 17:53:48.546 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/ab28f7ec72d34789b86a59a1d87130fd.png
+2025-02-28 17:53:48.548 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:54:01.318 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:54:01.343 [http-nio-8081-exec-4] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:54:01.343 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:54:01.343 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 222b2df2eb5f49638ebe27e0eb4a3f6f.mp4
+2025-02-28 17:54:01.452 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/222b2df2eb5f49638ebe27e0eb4a3f6f.mp4
+2025-02-28 17:54:01.453 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:54:09.366 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:54:09.370 [http-nio-8081-exec-5] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:54:09.370 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:54:09.371 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 92b555f99fd94c59b3c61dd3e71a9102.png
+2025-02-28 17:54:09.419 [http-nio-8081-exec-5] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/92b555f99fd94c59b3c61dd3e71a9102.png
+2025-02-28 17:54:09.421 [http-nio-8081-exec-5] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:55:37.276 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:55:37.299 [http-nio-8081-exec-6] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:55:37.299 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:55:37.300 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 0c4b9b18d9dc42a5bc2534139e6922cf.mp4
+2025-02-28 17:55:37.388 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/0c4b9b18d9dc42a5bc2534139e6922cf.mp4
+2025-02-28 17:55:37.390 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:55:42.582 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:55:42.586 [http-nio-8081-exec-9] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:55:42.586 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:55:42.587 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: ecc04df5b209426993d65d6d7dbeacaf.png
+2025-02-28 17:55:42.625 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/ecc04df5b209426993d65d6d7dbeacaf.png
+2025-02-28 17:55:42.627 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 17:55:46.122 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 17:55:46.127 [http-nio-8081-exec-10] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 17:55:46.127 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 17:55:46.127 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 2a2dae87ceca4ed59694032dd3530f67.png
+2025-02-28 17:55:46.169 [http-nio-8081-exec-10] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/2a2dae87ceca4ed59694032dd3530f67.png
+2025-02-28 17:55:46.171 [http-nio-8081-exec-10] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 18:03:42.402 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 18:03:42.409 [http-nio-8081-exec-1] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 18:03:42.409 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 18:03:42.409 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 8161e42c93124a7db247907d5b7535b7.png
+2025-02-28 18:03:42.467 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/8161e42c93124a7db247907d5b7535b7.png
+2025-02-28 18:03:42.469 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 18:03:46.042 [http-nio-8081-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 18:03:46.048 [http-nio-8081-exec-2] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 18:03:46.048 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 18:03:46.048 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: bfe47224804948bd94035fa7c343cc2f.png
+2025-02-28 18:03:46.097 [http-nio-8081-exec-2] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/bfe47224804948bd94035fa7c343cc2f.png
+2025-02-28 18:03:46.098 [http-nio-8081-exec-2] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 18:04:16.331 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 18:04:16.335 [http-nio-8081-exec-3] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 18:04:16.335 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 18:04:16.336 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 95d9d74398b3433d83dae462c8038ea0.png
+2025-02-28 18:04:16.374 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/95d9d74398b3433d83dae462c8038ea0.png
+2025-02-28 18:04:16.375 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-02-28 18:04:16.386 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-02-28 18:04:16.391 [http-nio-8081-exec-4] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-02-28 18:04:16.391 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-02-28 18:04:16.391 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 59cfecffb2a146c5ab120e43852a73ce.png
+2025-02-28 18:04:16.431 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/59cfecffb2a146c5ab120e43852a73ce.png
+2025-02-28 18:04:16.432 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100

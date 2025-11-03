@@ -1,0 +1,421 @@
+2025-02-11 10:04:26.598 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:26.598 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:26.598 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:26.598 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:26.598 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:26.976 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:26.977 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.153 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.153 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.176 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.177 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.278 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.278 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.313 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.313 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.554 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.556 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.556 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.556 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.557 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.557 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.557 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.558 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.558 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.558 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.559 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.560 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.560 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.560 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.560 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.561 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.562 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.563 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.564 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.564 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.564 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.565 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.566 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.567 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.567 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.567 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.568 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.568 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.568 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.573 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.574 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.575 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.575 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.575 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.575 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.576 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.577 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.578 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.579 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.580 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.581 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.582 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.583 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.585 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:04:27.586 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 10:39:41.300 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Server healthy check fail, currentConnection = 1739191439333_172.17.0.1_49854
+2025-02-11 10:39:41.301 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+2025-02-11 10:39:41.302 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:39:44.306 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 516000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@4c65cd8a[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:39:44.423 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:39:47.427 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 1 milliseconds, 962800 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@694b1f8f[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:39:47.427 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 1 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:39:47.628 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:39:50.630 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 46300 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@5d14fae1[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:39:50.630 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 2 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:39:50.930 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:39:53.932 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 1 milliseconds, 340700 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@2f9dbc56[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:39:53.932 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 3 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:39:54.334 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:39:57.335 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 237000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@42e04f6c[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:39:57.335 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 4 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:39:57.836 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:00.838 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 458000 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@67ef7ab0[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:00.838 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 5 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:01.438 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:04.439 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 60400 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@76d26569[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:04.439 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 6 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:05.141 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:08.142 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 339800 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@58837e0b[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:08.142 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 7 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:08.943 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:11.945 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 596900 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@1eb151b0[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:11.945 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 8 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:12.847 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:15.849 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 816400 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@38552009[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:15.849 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 9 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:16.850 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:19.853 [com.alibaba.nacos.client.remote.worker] ERROR c.a.nacos.common.remote.client.grpc.GrpcClient - Server check fail, please check server 127.0.0.1 ,port 9848 is available , error ={}
+java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 1 milliseconds, 7900 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@2341df54[status=PENDING, info=[GrpcFuture{clientCall=PendingCall{realCall=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@517f062d, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@66f41f99, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6d7a333a}}}}]]
+	at com.alibaba.nacos.shaded.com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:508)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.serverCheck(GrpcClient.java:218)
+	at com.alibaba.nacos.common.remote.client.grpc.GrpcClient.connectToServer(GrpcClient.java:329)
+	at com.alibaba.nacos.common.remote.client.RpcClient.reconnect(RpcClient.java:502)
+	at com.alibaba.nacos.common.remote.client.RpcClient.lambda$start$2(RpcClient.java:343)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-11 10:40:19.853 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Fail to connect server, after trying 10 times, last try server is {serverIp = '127.0.0.1', server main port = 8848}, error = unknown
+2025-02-11 10:40:20.956 [com.alibaba.nacos.client.remote.worker] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-11 10:40:22.563 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Success to connect a server [127.0.0.1:8848], connectionId = 1739241622452_172.17.0.1_38688
+2025-02-11 10:40:22.563 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1739191439333_172.17.0.1_49854
+2025-02-11 10:40:22.563 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1739191439333_172.17.0.1_49854
+2025-02-11 10:40:22.563 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Notify disconnected event to listeners
+2025-02-11 10:40:22.563 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - Grpc connection disconnect, mark to redo
+2025-02-11 10:40:22.564 [nacos-grpc-client-executor-127.0.0.1-2228] WARN  c.a.nacos.common.remote.client.grpc.GrpcClient - [1739191439333_172.17.0.1_49854]Ignore error event,isRunning:true,isAbandon=true
+2025-02-11 10:40:22.564 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - mark to redo completed
+2025-02-11 10:40:22.564 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Notify connected event to listeners.
+2025-02-11 10:40:22.564 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-11 10:40:22.668 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo instance operation REGISTER for DEFAULT_GROUP@@xiaohashu-comment
+2025-02-11 10:40:24.789 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xiaohashu-kv#
+2025-02-11 10:40:25.313 [nacos-grpc-client-executor-127.0.0.1-2231] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Receive server push request, request = NotifySubscriberRequest, requestId = 19
+2025-02-11 10:40:25.317 [nacos-grpc-client-executor-127.0.0.1-2231] INFO  com.alibaba.nacos.client.naming - removed ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.1.3","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD","IPv6":"[240e:b65:571:db00:75c0:5437:baf6:caaa]"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-02-11 10:40:25.317 [nacos-grpc-client-executor-127.0.0.1-2231] INFO  com.alibaba.nacos.client.naming - current ips:(0) service: DEFAULT_GROUP@@xiaohashu-kv -> []
+2025-02-11 10:40:25.874 [nacos-grpc-client-executor-127.0.0.1-2231] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Ack server push request, request = NotifySubscriberRequest, requestId = 19
+2025-02-11 10:40:29.751 [nacos-grpc-client-executor-127.0.0.1-2232] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Receive server push request, request = NotifySubscriberRequest, requestId = 21
+2025-02-11 10:40:29.752 [nacos-grpc-client-executor-127.0.0.1-2232] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.1.3","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD","IPv6":"[240e:b65:571:db00:75c0:5437:baf6:caaa]"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-02-11 10:40:29.752 [nacos-grpc-client-executor-127.0.0.1-2232] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-kv -> [{"ip":"192.168.1.3","port":8084,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-kv","metadata":{"preserved.register.source":"SPRING_CLOUD","IPv6":"[240e:b65:571:db00:75c0:5437:baf6:caaa]"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2025-02-11 10:40:29.752 [nacos-grpc-client-executor-127.0.0.1-2232] INFO  com.alibaba.nacos.common.remote.client - [bcd527fd-27dd-418c-9e32-740a327cb664] Ack server push request, request = NotifySubscriberRequest, requestId = 21
+2025-02-11 11:07:06.588 [Thread-17] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-02-11 11:07:06.588 [Thread-14] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-02-11 11:07:06.588 [Thread-14] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-02-11 11:07:06.589 [Thread-17] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-02-11 11:07:06.640 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 11:07:06.640 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 11:07:06.643 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 11:07:06.643 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 11:07:06.716 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-02-11 11:07:06.716 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-comment with instance: Instance{instanceId='null', ip='192.168.1.3', port=8093, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-11 11:07:06.720 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@51871aaa[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1739241622452_172.17.0.1_38688
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@a136343[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 2551]
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@35aa561d[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 4120]
+2025-02-11 11:07:06.721 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-02-11 11:07:06.722 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-02-11 11:07:06.722 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-02-11 11:07:06.727 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 11:07:06.727 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 11:07:06.729 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 11:07:06.729 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 11:07:06.730 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_first_reply_comment_idCountNoteCommentTopic', namespace='', nameServer='127.0.0.1:9876', topic='CountNoteCommentTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-02-11 11:07:06.730 [SpringApplicationShutdownHook] INFO  o.a.r.s.support.DefaultRocketMQListenerContainer - container destroyed, DefaultRocketMQListenerContainer{consumerGroup='xiaohashu_group_CommentHeatUpdateTopic', namespace='', nameServer='127.0.0.1:9876', topic='CommentHeatUpdateTopic', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING', tlsEnable=false, instanceName=DEFAULT}
+2025-02-11 11:07:06.873 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[172.26.208.1:10911] result: true
+2025-02-11 11:07:06.873 [NettyClientSelector_1] INFO  RocketmqRemoting - closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2025-02-11 11:07:06.877 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-02-11 11:07:06.881 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

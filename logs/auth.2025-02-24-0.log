@@ -1,0 +1,417 @@
+2025-02-24 15:43:49.721 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:43:49.761 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:43:49.912 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:43:49.913 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-24 15:43:49.914 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-24 15:43:49.914 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-24 15:43:49.933 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-24 15:43:49.933 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-24 15:43:49.935 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-24 15:43:50.076 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:43:50.084 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-02-24 15:43:50.087 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0
+2025-02-24 15:43:50.097 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$587/0x0000011bea38f7b0
+2025-02-24 15:43:50.098 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x0000011bea38fbd0
+2025-02-24 15:43:50.098 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-02-24 15:43:50.098 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-02-24 15:43:50.104 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-24 15:43:50.121 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-24 15:43:50.730 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740383030574_172.17.0.1_53100
+2025-02-24 15:43:50.730 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Notify connected event to listeners.
+2025-02-24 15:43:50.730 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Connected,notify listen context...
+2025-02-24 15:43:50.730 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-24 15:43:50.730 [main] INFO  com.alibaba.nacos.common.remote.client - [c46e313f-3dec-4d1b-860b-a600cde4bcef_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$608/0x0000011bea4d9448
+2025-02-24 15:43:50.763 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-02-24 15:43:50.802 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2025-02-24 15:43:50.813 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-auth.yaml] & group[DEFAULT_GROUP]
+2025-02-24 15:43:50.821 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth,DEFAULT_GROUP'}]
+2025-02-24 15:43:50.824 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:43:50.824 [main] INFO  c.q.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-02-24 15:43:51.131 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-24 15:43:51.135 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-24 15:43:51.147 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-02-24 15:43:51.264 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9597aa3a-ab0b-3653-9f87-3b1a14972dd5
+2025-02-24 15:43:51.271 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-24 15:43:51.519 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-24 15:43:51.526 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-24 15:43:51.526 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-24 15:43:51.567 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-24 15:43:51.567 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+2025-02-24 15:43:51.842 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-02-24 15:43:52.355 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-24 15:43:52.382 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-24 15:43:52.390 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-02-24 15:43:52.398 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-02-24 15:43:52.408 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-24 15:43:52.640 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-02-24 15:43:52.640 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-02-24 15:43:52.641 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-02-24 15:44:09.011 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:44:09.050 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:44:09.183 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:44:09.183 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-24 15:44:09.183 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-24 15:44:09.184 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-24 15:44:09.200 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-24 15:44:09.200 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-24 15:44:09.201 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-24 15:44:09.360 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:44:09.368 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-02-24 15:44:09.372 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0
+2025-02-24 15:44:09.383 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$587/0x000001fb11390000
+2025-02-24 15:44:09.383 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x000001fb11390420
+2025-02-24 15:44:09.383 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-02-24 15:44:09.383 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-02-24 15:44:09.390 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-24 15:44:09.416 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-24 15:44:09.976 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740383049813_172.17.0.1_51726
+2025-02-24 15:44:09.976 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Notify connected event to listeners.
+2025-02-24 15:44:09.976 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Connected,notify listen context...
+2025-02-24 15:44:09.977 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-24 15:44:09.977 [main] INFO  com.alibaba.nacos.common.remote.client - [116ebc5e-48cb-4cb3-b9db-2676ba8a5672_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$608/0x000001fb114d9688
+2025-02-24 15:44:10.004 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-02-24 15:44:10.018 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2025-02-24 15:44:10.027 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-auth.yaml] & group[DEFAULT_GROUP]
+2025-02-24 15:44:10.033 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth,DEFAULT_GROUP'}]
+2025-02-24 15:44:10.036 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 15:44:10.036 [main] INFO  c.q.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-02-24 15:44:10.311 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-24 15:44:10.313 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-24 15:44:10.326 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-02-24 15:44:10.453 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9597aa3a-ab0b-3653-9f87-3b1a14972dd5
+2025-02-24 15:44:10.463 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-24 15:44:10.671 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-24 15:44:10.676 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-24 15:44:10.676 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-24 15:44:10.724 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-24 15:44:10.724 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 681 ms
+2025-02-24 15:44:11.005 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-02-24 15:44:11.492 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-24 15:44:11.524 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-24 15:44:11.527 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-02-24 15:44:11.527 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-02-24 15:44:11.527 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-02-24 15:44:11.532 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-24 15:44:11.532 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-24 15:44:11.534 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 18ba4699-b0f5-4721-94f9-4c7f179ac4d0
+2025-02-24 15:44:11.535 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-02-24 15:44:11.535 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-02-24 15:44:11.535 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-02-24 15:44:11.535 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-24 15:44:11.535 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-24 15:44:11.658 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740383051539_172.17.0.1_51742
+2025-02-24 15:44:11.658 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-24 15:44:11.658 [main] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$608/0x000001fb114d9688
+2025-02-24 15:44:11.658 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [18ba4699-b0f5-4721-94f9-4c7f179ac4d0] Notify connected event to listeners.
+2025-02-24 15:44:11.658 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-24 15:44:11.659 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-auth with instance Instance{instanceId='null', ip='192.168.1.3', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:56e:2b00:4b38:166:d82c:3df6], preserved.register.source=SPRING_CLOUD}}
+2025-02-24 15:44:11.667 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 192.168.1.3:8080 register finished
+2025-02-24 15:44:11.754 [main] INFO  c.q.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 3.148 seconds (process running for 3.456)
+2025-02-24 15:44:11.757 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-02-24 15:44:11.757 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-24 15:44:11.761 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-24 15:44:11.761 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth.yaml, group=DEFAULT_GROUP
+2025-02-24 15:44:11.762 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-24 15:44:11.762 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-24 15:44:11.762 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth-dev.yaml, group=DEFAULT_GROUP
+2025-02-24 15:44:11.762 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth+DEFAULT_GROUP+xiaohashu
+2025-02-24 15:44:11.762 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth, group=DEFAULT_GROUP, cnt=1
+2025-02-24 15:44:11.762 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth, group=DEFAULT_GROUP
+2025-02-24 15:44:18.877 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24 15:44:18.877 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-24 15:44:18.878 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-24 15:44:18.927 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939444"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 15:44:19.162 [http-nio-8080-exec-1] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939444, 已生成验证码：【881453】
+2025-02-24 15:44:19.163 [AuthExecutor-1] INFO  com.quanxiaoha.xiaohashu.auth.sms.AliyunSmsHelper - ==> 开始短信发送, phone: 18019939444, signName: 阿里云短信测试, templateCode: SMS_154950909, templateParam: {"code":"881453"}
+2025-02-24 15:44:19.165 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 239ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 15:44:19.747 [AuthExecutor-1] INFO  com.quanxiaoha.xiaohashu.auth.sms.AliyunSmsHelper - ==> 短信发送成功, response: {"headers":{"access-control-allow-origin":"*","date":"Mon, 24 Feb 2025 07:44:19 GMT","content-length":"148","keep-alive":"timeout=25","x-acs-request-id":"395A017D-9FDD-58F1-8547-8A9637AA871B","connection":"keep-alive","content-type":"application/json;charset=utf-8","etag":"1K+hWgKQCm4kFucmx82h1qA6","access-control-expose-headers":"*","x-acs-trace-id":"5b0a77b16c0be9511ac370072f799b2f"},"statusCode":200,"body":{"bizId":null,"code":"isv.SMS_TEST_NUMBER_LIMIT","message":"只能向已回复授权信息的手机号发送","requestId":"395A017D-9FDD-58F1-8547-8A9637AA871B"}}
+2025-02-24 17:30:57.306 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 17:30:57.319 [http-nio-8080-exec-4] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【448264】
+2025-02-24 17:30:57.320 [AuthExecutor-2] INFO  com.quanxiaoha.xiaohashu.auth.sms.AliyunSmsHelper - ==> 开始短信发送, phone: 18019939108, signName: 阿里云短信测试, templateCode: SMS_154950909, templateParam: {"code":"448264"}
+2025-02-24 17:30:57.323 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 19ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 17:30:57.951 [AuthExecutor-2] INFO  com.quanxiaoha.xiaohashu.auth.sms.AliyunSmsHelper - ==> 短信发送成功, response: {"headers":{"access-control-allow-origin":"*","date":"Mon, 24 Feb 2025 09:30:58 GMT","content-length":"110","keep-alive":"timeout=25","x-acs-request-id":"E8E3A9D6-BE4D-5876-B4E9-6B645C6A693C","connection":"keep-alive","content-type":"application/json;charset=utf-8","etag":"1IXVycfEn1C8hi5SxltF1aA0","access-control-expose-headers":"*","x-acs-trace-id":"ebe2f8c2022b36af1bcab523bf0b6a31"},"statusCode":200,"body":{"bizId":"360612640389457849^0","code":"OK","message":"OK","requestId":"E8E3A9D6-BE4D-5876-B4E9-6B645C6A693C"}}
+2025-02-24 17:35:36.507 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-02-24 17:35:36.507 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-02-24 17:35:36.507 [Thread-9] WARN  com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-02-24 17:35:36.508 [Thread-2] WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-02-24 17:35:36.544 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2025-02-24 17:35:36.545 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] xiaohashu deregistering service xiaohashu-auth with instance: Instance{instanceId='null', ip='192.168.1.3', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-02-24 17:35:36.550 [SpringApplicationShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown rpc client, set status to shutdown
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@70b2a902[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-02-24 17:35:36.551 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740383051539_172.17.0.1_51742
+2025-02-24 17:35:36.554 [nacos-grpc-client-executor-127.0.0.1-1360] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740383051539_172.17.0.1_51742]Ignore complete event,isRunning:false,isAbandon=false
+2025-02-24 17:35:36.556 [SpringApplicationShutdownHook] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@77e4092f[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 1361]
+2025-02-24 17:35:36.556 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@25b4a6be[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 2223]
+2025-02-24 17:35:36.556 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2025-02-24 17:35:36.556 [SpringApplicationShutdownHook] INFO  c.a.n.client.auth.ram.identify.CredentialService - [null] CredentialService is freed
+2025-02-24 17:35:36.557 [SpringApplicationShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-02-24 17:35:39.538 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 17:35:39.578 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 17:35:39.704 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 17:35:39.704 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [req-serv] nacos-server port:8848
+2025-02-24 17:35:39.705 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - [settings] [http-client] connect timeout:1000
+2025-02-24 17:35:39.705 [main] INFO  com.alibaba.nacos.client.utils.ParamUtil - PER_TASK_CONFIG_SIZE: 3000.0
+2025-02-24 17:35:39.721 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-24 17:35:39.721 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-24 17:35:39.723 [main] INFO  c.a.n.client.auth.ram.identify.CredentialWatcher - null No credential found
+2025-02-24 17:35:39.875 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 17:35:39.883 [main] INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor - LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2025-02-24 17:35:39.885 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 3547bd40-f85c-4937-9de7-cc5b45268331_config-0
+2025-02-24 17:35:39.895 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$587/0x000001717838fc18
+2025-02-24 17:35:39.895 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$588/0x0000017178390200
+2025-02-24 17:35:39.896 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2025-02-24 17:35:39.896 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2025-02-24 17:35:39.900 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-24 17:35:39.916 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-24 17:35:40.475 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740389740312_172.17.0.1_36844
+2025-02-24 17:35:40.475 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Notify connected event to listeners.
+2025-02-24 17:35:40.476 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Connected,notify listen context...
+2025-02-24 17:35:40.476 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-24 17:35:40.476 [main] INFO  com.alibaba.nacos.common.remote.client - [3547bd40-f85c-4937-9de7-cc5b45268331_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$608/0x00000171784d9ad0
+2025-02-24 17:35:40.505 [main] INFO  com.alibaba.nacos.client.config.impl.Limiter - limitTime:5.0
+2025-02-24 17:35:40.516 [main] INFO  com.alibaba.nacos.client.config.utils.JvmUtil - isMultiInstance:false
+2025-02-24 17:35:40.524 [main] WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder - Ignore the empty nacos configuration and get it based on dataId[xiaohashu-auth.yaml] & group[DEFAULT_GROUP]
+2025-02-24 17:35:40.531 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-xiaohashu-auth,DEFAULT_GROUP'}]
+2025-02-24 17:35:40.533 [main] WARN  com.alibaba.nacos.client.logging.NacosLogging - Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2025-02-24 17:35:40.534 [main] INFO  c.q.xiaohashu.auth.XiaohashuAuthApplication - The following 1 profile is active: "dev"
+2025-02-24 17:35:40.809 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-24 17:35:40.811 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-02-24 17:35:40.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-02-24 17:35:40.940 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9597aa3a-ab0b-3653-9f87-3b1a14972dd5
+2025-02-24 17:35:40.948 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.quanxiaoha.xiaohashu.user.api.UserFeignApi' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-02-24 17:35:41.157 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-02-24 17:35:41.163 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-02-24 17:35:41.163 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-02-24 17:35:41.202 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-02-24 17:35:41.202 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 661 ms
+2025-02-24 17:35:41.477 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'xiaohashu-user' URL not provided. Will try picking an instance via load-balancing.
+2025-02-24 17:35:41.969 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-02-24 17:35:42.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-24 17:35:42.004 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ans.namespace attribute : null
+2025-02-24 17:35:42.004 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-02-24 17:35:42.004 [main] INFO  com.alibaba.nacos.client.naming - initializer namespace from namespace attribute :null
+2025-02-24 17:35:42.010 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-02-24 17:35:42.010 [main] INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-02-24 17:35:42.012 [main] INFO  com.alibaba.nacos.common.remote.client - [RpcClientFactory] create a new rpc client of 2b92cc48-600c-490f-b8c7-ed1aeae0c906
+2025-02-24 17:35:42.013 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-02-24 17:35:42.013 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-02-24 17:35:42.014 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-02-24 17:35:42.014 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2025-02-24 17:35:42.014 [main] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - grpc client connection server:127.0.0.1 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-02-24 17:35:42.137 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1740389742020_172.17.0.1_36848
+2025-02-24 17:35:42.137 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-02-24 17:35:42.137 [main] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$608/0x00000171784d9ad0
+2025-02-24 17:35:42.137 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Notify connected event to listeners.
+2025-02-24 17:35:42.137 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-24 17:35:42.138 [main] INFO  com.alibaba.nacos.client.naming - [REGISTER-SERVICE] xiaohashu registering service xiaohashu-auth with instance Instance{instanceId='null', ip='192.168.1.3', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=[240e:b65:56e:2b00:4b38:166:d82c:3df6], preserved.register.source=SPRING_CLOUD}}
+2025-02-24 17:35:42.145 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xiaohashu-auth 192.168.1.3:8080 register finished
+2025-02-24 17:35:42.234 [main] INFO  c.q.xiaohashu.auth.XiaohashuAuthApplication - Started XiaohashuAuthApplication in 3.079 seconds (process running for 3.37)
+2025-02-24 17:35:42.236 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - nacos.cache.data.init.snapshot = true 
+2025-02-24 17:35:42.237 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-24 17:35:42.241 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-24 17:35:42.241 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth.yaml, group=DEFAULT_GROUP
+2025-02-24 17:35:42.241 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth-dev.yaml+DEFAULT_GROUP+xiaohashu
+2025-02-24 17:35:42.241 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2025-02-24 17:35:42.241 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth-dev.yaml, group=DEFAULT_GROUP
+2025-02-24 17:35:42.241 [main] INFO  com.alibaba.nacos.client.config.impl.ClientWorker - [fixed-xiaohashu-127.0.0.1_8848] [subscribe] xiaohashu-auth+DEFAULT_GROUP+xiaohashu
+2025-02-24 17:35:42.241 [main] INFO  com.alibaba.nacos.client.config.impl.CacheData - [fixed-xiaohashu-127.0.0.1_8848] [add-listener] ok, tenant=xiaohashu, dataId=xiaohashu-auth, group=DEFAULT_GROUP, cnt=1
+2025-02-24 17:35:42.241 [main] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - [Nacos Config] Listening config: dataId=xiaohashu-auth, group=DEFAULT_GROUP
+2025-02-24 17:37:46.691 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-24 17:37:46.691 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-02-24 17:37:46.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-02-24 17:37:46.769 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 17:37:47.137 [http-nio-8080-exec-1] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【663905】
+2025-02-24 17:37:47.143 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 375ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 17:42:45.821 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 17:42:45.823 [http-nio-8080-exec-3] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【124448】
+2025-02-24 17:42:45.825 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 4ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 17:42:57.090 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 17:42:57.094 [http-nio-8080-exec-4] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 17:43:27.924 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"124448","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 17:43:27.979 [http-nio-8080-exec-5] INFO  com.alibaba.nacos.client.naming - [SUBSCRIBE-SERVICE] service:xiaohashu-user, group:DEFAULT_GROUP, clusters: 
+2025-02-24 17:43:28.042 [http-nio-8080-exec-5] INFO  com.alibaba.nacos.client.naming - init new ips(0) service: DEFAULT_GROUP@@xiaohashu-user -> []
+2025-02-24 17:43:28.043 [http-nio-8080-exec-5] INFO  com.alibaba.nacos.client.naming - current ips:(0) service: DEFAULT_GROUP@@xiaohashu-user -> []
+2025-02-24 17:43:28.051 [http-nio-8080-exec-5] WARN  o.s.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: xiaohashu-user
+2025-02-24 17:43:28.056 [http-nio-8080-exec-5] WARN  o.s.c.o.l.FeignBlockingLoadBalancerClient - Load balancer does not contain an instance for the service xiaohashu-user
+2025-02-24 17:43:28.061 [http-nio-8080-exec-5] ERROR c.q.x.auth.exception.GlobalExceptionHandler - /login request error, 
+feign.FeignException$ServiceUnavailable: [503] during [POST] to [http://xiaohashu-user/user/register] [UserFeignApi#registerUser(RegisterUserReqDTO)]: [Load balancer does not contain an instance for the service xiaohashu-user]
+	at feign.FeignException.serverErrorStatus(FeignException.java:265)
+	at feign.FeignException.errorStatus(FeignException.java:206)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.registerUser(Unknown Source)
+	at com.quanxiaoha.xiaohashu.auth.rpc.UserRpcService.registerUser(UserRpcService.java:34)
+	at com.quanxiaoha.xiaohashu.auth.service.impl.AuthServiceImpl.loginAndRegister(AuthServiceImpl.java:86)
+	at com.quanxiaoha.xiaohashu.auth.controller.AuthController.loginAndRegister(AuthController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.quanxiaoha.framework.biz.operationlog.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.quanxiaoha.xiaohashu.auth.controller.AuthController$$SpringCGLIB$$0.loginAndRegister(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at com.quanxiaoha.framework.biz.context.filter.HeaderUserId2ContextFilter.doFilterInternal(HeaderUserId2ContextFilter.java:33)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-02-24 17:43:28.645 [nacos-grpc-client-executor-127.0.0.1-112] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Receive server push request, request = NotifySubscriberRequest, requestId = 4
+2025-02-24 17:43:28.645 [nacos-grpc-client-executor-127.0.0.1-112] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Ack server push request, request = NotifySubscriberRequest, requestId = 4
+2025-02-24 17:45:57.633 [nacos-grpc-client-executor-127.0.0.1-141] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Receive server push request, request = NotifySubscriberRequest, requestId = 5
+2025-02-24 17:45:57.634 [nacos-grpc-client-executor-127.0.0.1-141] INFO  com.alibaba.nacos.client.naming - new ips(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.1.3","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD","IPv6":"[240e:b65:56e:2b00:4b38:166:d82c:3df6]"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-02-24 17:45:57.634 [nacos-grpc-client-executor-127.0.0.1-141] INFO  com.alibaba.nacos.client.naming - current ips:(1) service: DEFAULT_GROUP@@xiaohashu-user -> [{"ip":"192.168.1.3","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@xiaohashu-user","metadata":{"preserved.register.source":"SPRING_CLOUD","IPv6":"[240e:b65:56e:2b00:4b38:166:d82c:3df6]"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-02-24 17:45:57.635 [nacos-grpc-client-executor-127.0.0.1-141] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Ack server push request, request = NotifySubscriberRequest, requestId = 5
+2025-02-24 17:51:51.867 [http-nio-8080-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"124448","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 17:51:51.870 [http-nio-8080-exec-8] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /login request fail, errorCode: AUTH-20001, errorMessage: 验证码错误
+2025-02-24 17:51:55.084 [http-nio-8080-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 17:51:55.086 [http-nio-8080-exec-7] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【481544】
+2025-02-24 17:51:55.087 [http-nio-8080-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 17:52:07.217 [http-nio-8080-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"481544","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 17:52:07.405 [http-nio-8080-exec-9] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /login request fail, errorCode: AUTH-20005, errorMessage: 登录失败
+2025-02-24 17:52:56.443 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"481544","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 17:52:56.669 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 226ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:11:31.376 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:11:31.389 [http-nio-8080-exec-2] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【472069】
+2025-02-24 21:11:31.391 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 16ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 21:11:46.951 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"472069","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:11:47.068 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 117ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:12:19.713 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"472069","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:12:19.749 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 36ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:13:53.945 [http-nio-8080-exec-6] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:13:53.947 [http-nio-8080-exec-6] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 21:13:56.358 [http-nio-8080-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:13:56.360 [http-nio-8080-exec-8] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 21:14:06.095 [http-nio-8080-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:14:06.097 [http-nio-8080-exec-7] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 21:15:19.947 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:15:19.949 [http-nio-8080-exec-10] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【356971】
+2025-02-24 21:15:19.950 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 21:15:31.552 [http-nio-8080-exec-1] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:15:31.554 [http-nio-8080-exec-1] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 21:15:34.649 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"356971","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:15:34.673 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 24ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:19:59.616 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:19:59.618 [http-nio-8080-exec-4] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【097756】
+2025-02-24 21:19:59.620 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 21:20:15.134 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"097756","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:20:15.160 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 26ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:23:19.132 [http-nio-8080-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:23:19.133 [http-nio-8080-exec-8] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【329793】
+2025-02-24 21:23:19.134 [http-nio-8080-exec-8] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 2ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 21:23:26.741 [http-nio-8080-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"329793","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:23:26.763 [http-nio-8080-exec-7] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 22ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:24:10.180 [http-nio-8080-exec-9] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:24:10.181 [http-nio-8080-exec-9] WARN  c.q.x.auth.exception.GlobalExceptionHandler - /verification/code/send request fail, errorCode: AUTH-20000, errorMessage: 请求太频繁，请3分钟后再试
+2025-02-24 21:24:24.319 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"329793","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:24:24.342 [http-nio-8080-exec-10] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 23ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"tlpybMunki3yPK06jrJmKqIWpQWz53BSX1oizZmCWalw743V4rOMfyeOhwyEAYU8iWyy2EE2Bv7Vhu5g5itRXdYkdCXLU1yab74Xq90FkZhTnczgqqaNEPgAnfpJ3ohH"} =================================== 
+2025-02-24 21:47:16.526 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939777"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-24 21:47:16.528 [http-nio-8080-exec-2] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939777, 已生成验证码：【488681】
+2025-02-24 21:47:16.529 [http-nio-8080-exec-2] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 3ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-24 21:47:49.605 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939777","code":"488681","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-24 21:47:49.643 [http-nio-8080-exec-3] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 38ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"xSlSRhMsDudxyW4QwCPt8jN8FliWTYnvOq4VlBEpjLzELwmDUspffrdyigu3PFmzc8plqgkQSzmsrtNxBbbXXhqVGnGGWSz0BLvoknpZAygIXnUSmZq04AXPKYlUd6yt"} =================================== 

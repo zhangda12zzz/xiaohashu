@@ -1,0 +1,42 @@
+2025-03-03 20:39:55.594 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 20:39:55.599 [http-nio-8081-exec-4] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 20:39:55.599 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 20:39:55.599 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 08dcbb687fc74b179cb49b73e53ad36a.png
+2025-03-03 20:39:55.646 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/08dcbb687fc74b179cb49b73e53ad36a.png
+2025-03-03 20:39:55.649 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 20:41:07.954 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 20:41:07.957 [http-nio-8081-exec-9] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 20:41:07.957 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 20:41:07.957 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 7b911f5f507b4742acf9d0ca2e3fce81.png
+2025-03-03 20:41:08.004 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/7b911f5f507b4742acf9d0ca2e3fce81.png
+2025-03-03 20:41:08.005 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 20:48:45.876 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 20:48:45.879 [http-nio-8081-exec-1] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 20:48:45.879 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 20:48:45.879 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: b7632eb9a54c403fac3e07241737535e.png
+2025-03-03 20:48:45.918 [http-nio-8081-exec-1] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/b7632eb9a54c403fac3e07241737535e.png
+2025-03-03 20:48:45.919 [http-nio-8081-exec-1] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 21:21:34.127 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 21:21:34.130 [http-nio-8081-exec-3] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 21:21:34.130 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 21:21:34.131 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: a63746f89f6540e7805559408442f624.png
+2025-03-03 21:21:34.171 [http-nio-8081-exec-3] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/a63746f89f6540e7805559408442f624.png
+2025-03-03 21:21:34.172 [http-nio-8081-exec-3] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 21:27:50.165 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 21:27:50.176 [http-nio-8081-exec-6] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 21:27:50.176 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 21:27:50.176 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 30da9dc65c234162a72c89193a4ea4c7.png
+2025-03-03 21:27:50.250 [http-nio-8081-exec-6] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/30da9dc65c234162a72c89193a4ea4c7.png
+2025-03-03 21:27:50.253 [http-nio-8081-exec-6] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 21:29:22.172 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 21:29:22.175 [http-nio-8081-exec-4] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 21:29:22.175 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 21:29:22.175 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: 43e7122950ed4920a3fd8d031abea8f3.png
+2025-03-03 21:29:22.227 [http-nio-8081-exec-4] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/43e7122950ed4920a3fd8d031abea8f3.png
+2025-03-03 21:29:22.228 [http-nio-8081-exec-4] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100
+2025-03-03 22:39:22.701 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 设置 userId 到 ThreadLocal 中， 用户 ID: 2100
+2025-03-03 22:39:22.709 [http-nio-8081-exec-9] INFO  c.q.xiaohashu.oss.biz.controller.FileController - 当前用户 ID: 2100
+2025-03-03 22:39:22.709 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ## 上传文件至 Minio ...
+2025-03-03 22:39:22.709 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 开始上传文件至 Minio, ObjectName: b37f215c4a8d4f24b3d2d9cd144125fc.jpg
+2025-03-03 22:39:22.754 [http-nio-8081-exec-9] INFO  c.q.x.oss.biz.strategy.impl.MinioFileStrategy - ==> 上传文件至 Minio 成功，访问路径: http://127.0.0.1:9000/xiaohashu/b37f215c4a8d4f24b3d2d9cd144125fc.jpg
+2025-03-03 22:39:22.758 [http-nio-8081-exec-9] INFO  c.q.f.b.context.filter.HeaderUserId2ContextFilter - ===== 删除 ThreadLocal， userId: 2100

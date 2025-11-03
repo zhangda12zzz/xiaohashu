@@ -1,0 +1,18 @@
+2025-02-27 09:35:43.571 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Success to connect a server [127.0.0.1:8848], connectionId = 1740577741515_172.17.0.1_33410
+2025-02-27 09:35:43.571 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Abandon prev connection, server is 127.0.0.1:8848, connectionId is 1740389742020_172.17.0.1_36848
+2025-02-27 09:35:43.575 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - Close current connection 1740389742020_172.17.0.1_36848
+2025-02-27 09:35:43.580 [nacos-grpc-client-executor-127.0.0.1-20771] INFO  c.a.nacos.common.remote.client.grpc.GrpcClient - [1740389742020_172.17.0.1_36848]Ignore complete event,isRunning:false,isAbandon=true
+2025-02-27 09:35:43.749 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Notify disconnected event to listeners
+2025-02-27 09:35:43.750 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - Grpc connection disconnect, mark to redo
+2025-02-27 09:35:43.776 [com.alibaba.nacos.client.remote.worker] WARN  com.alibaba.nacos.client.naming - mark to redo completed
+2025-02-27 09:35:43.776 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Notify connected event to listeners.
+2025-02-27 09:35:43.776 [com.alibaba.nacos.client.remote.worker] INFO  com.alibaba.nacos.client.naming - Grpc connection connect
+2025-02-27 09:35:45.090 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo instance operation REGISTER for DEFAULT_GROUP@@xiaohashu-auth
+2025-02-27 09:35:45.247 [com.alibaba.nacos.client.naming.grpc.redo.0] INFO  com.alibaba.nacos.client.naming - Redo subscriber operation REGISTER for DEFAULT_GROUP@@xiaohashu-user#
+2025-02-27 09:35:45.560 [nacos-grpc-client-executor-127.0.0.1-20774] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Receive server push request, request = NotifySubscriberRequest, requestId = 25
+2025-02-27 09:35:45.561 [nacos-grpc-client-executor-127.0.0.1-20774] INFO  com.alibaba.nacos.common.remote.client - [2b92cc48-600c-490f-b8c7-ed1aeae0c906] Ack server push request, request = NotifySubscriberRequest, requestId = 25
+2025-02-27 11:01:07.108 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [发送短信验证码], 入参: {"phone":"18019939108"}, 请求类: VerificationCodeController, 请求方法: send =================================== 
+2025-02-27 11:01:07.118 [http-nio-8080-exec-4] INFO  c.q.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 18019939108, 已生成验证码：【835578】
+2025-02-27 11:01:07.121 [http-nio-8080-exec-4] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [发送短信验证码], 耗时: 14ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-02-27 11:01:16.710 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求开始: [用户登录/注册], 入参: {"phone":"18019939108","code":"835578","password":null,"type":1}, 请求类: AuthController, 请求方法: loginAndRegister =================================== 
+2025-02-27 11:01:16.892 [http-nio-8080-exec-5] INFO  c.q.f.b.operationlog.aspect.ApiOperationLogAspect - ====== 请求结束: [用户登录/注册], 耗时: 183ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"HtkPROXuhLY3ggR9BzRnJ3KPlYEdCE2xv0UZaYhsvqZlshEfBdR2m3grrml1jz4HupGoOSrpHA8UIMNrBDNqJcT10kmj4i5JRRt6e1wkADVzPFp9rTR47qA30iCU2FH2"} =================================== 
